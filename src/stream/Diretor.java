@@ -3,17 +3,9 @@ package stream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Diretor {
-    private String nomeDiretor;
-    private List<Produto> portfolio = new ArrayList<Produto>();
+public class Diretor extends Pessoa{
 
-    public String getNomeDiretor() {
-        return nomeDiretor;
-    }
-
-    public void setNomeDiretor(String nomeDiretor) {
-        this.nomeDiretor = nomeDiretor;
-    }
+	private List<Produto> portfolio = new ArrayList<Produto>();
 
     public List<Produto> getPortfolio() {
         return portfolio;
