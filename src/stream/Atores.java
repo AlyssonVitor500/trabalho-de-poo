@@ -3,18 +3,11 @@ package stream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Atores {
-    private String nomeDoAutor;
+public class Atores extends Pessoa{
+	
+	
     private Long anoDeNascimento;
     private List<Produto> portifolio = new ArrayList<Produto>();
-
-    public String getNomeDoAutor() {
-        return nomeDoAutor;
-    }
-
-    public void setNomeDoAutor(String nomeDoAutor) {
-        this.nomeDoAutor = nomeDoAutor;
-    }
 
     public Long getAnoDeNascimento() {
         return anoDeNascimento;
