@@ -18,6 +18,10 @@ public class Mensalidade {
     private MensalidadeStatus status;
 
     private FormaPagamento tipoPagamento;
+    
+    private Cliente cliente;
+   
+    private Produto produto;
 
     public Long getCodMensalidade() {
         return codMensalidade;
@@ -66,4 +70,20 @@ public class Mensalidade {
     public void setTipoPagamento(FormaPagamento tipoPagamento) {
         this.tipoPagamento = tipoPagamento;
     }
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+	public Produto getProduto() {
+		return produto;
+	}
+
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
 }
