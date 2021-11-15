@@ -3,23 +3,13 @@ package stream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente {
-
-    private String nome;
+public class Cliente extends Pessoa{
 
     private String email;
 
     private String senha;
 
     private List<Mensalidade> mensalidade = new ArrayList<Mensalidade>();
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 
     public String getEmail() {
         return email;
